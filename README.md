@@ -11,7 +11,17 @@ Dieses Repo beinhaltet sämtlichen Quellcode zu allen Demos sowie alle relevante
 
 ## Skript
 
-_folgt_
+- Termin 1, 03.07.2026
+  - [Wiederholung: _Einführung in die Programmierung_](skript/repetition.md)
+- Termin 2, 07.07.2026
+- Termin 3, 14.07.2026
+- Termin 4, 17.07.2026
+- Termin 5, 21.07.2026
+- Termin 6, 24.07.2026
+- Termin 7, 28.07.2026
+- Termin 8, 31.07.2026
+- Termin 9, 08.09.2026
+- Termin 10, 11.09.2026
 
 ## Downloads
 
