@@ -25,7 +25,9 @@ Dieses Repo beinhaltet sämtlichen Quellcode zu allen Demos sowie alle relevante
 
 ## Downloads
 
-_folgt_
+- [Musterklausur Programmierung II.pdf](static/Programmierung%20II%20-%20Musterklausur.pdf)
+- [Musterlösung zur Musterklausur Programmierung II.pdf](static/Programmierung%20II%20-%20Musterlösung%20zur%20Musterklausur.pdf)
+- [Cheatsheet Programmierung II.pdf](static/Programmierung%20II%20-%20Cheatsheet.pdf)
 
 ## Klausurergebnisse
 
