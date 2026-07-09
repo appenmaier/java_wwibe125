@@ -14,6 +14,8 @@ Dieses Repo beinhaltet sämtlichen Quellcode zu allen Demos sowie alle relevante
 - Termin 1, 03.07.2026
   - [Wiederholung: _Einführung in die Programmierung_](skript/repetition.md)
 - Termin 2, 07.07.2026
+  - [Datenklassen (Records)](skript/records.md)
+  - [Komparatoren](skript/comparators.md)
 - Termin 3, 14.07.2026
 - Termin 4, 17.07.2026
 - Termin 5, 21.07.2026
