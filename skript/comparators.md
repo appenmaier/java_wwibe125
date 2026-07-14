@@ -12,3 +12,4 @@
 
 - [Doku: Komparatoren](https://jappuccini.github.io/java-docs/production/documentation/comparators)
 - [Übungsaufgaben: Komparatoren](https://jappuccini.github.io/java-docs/production/exercises/comparators/)
+- [Demo: Komparatoren](../src/main/java/main/D02_Comparators.java)
