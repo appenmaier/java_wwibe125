@@ -9,8 +9,8 @@ import java.util.function.Consumer;
 import model.Movie;
 
 /**
- * Demonstrates local classes, anonymous classes, lambda expressions, and method references
- * as alternative ways to define and pass a {@link java.util.Comparator} or
+ * Demonstrates local classes, anonymous classes, lambda expressions, and method references as
+ * alternative ways to define and pass a {@link java.util.Comparator} or
  * {@link java.util.function.Consumer}.
  *
  * @author Daniel Appenmaier
@@ -26,7 +26,7 @@ public class D03_InnerClasses {
 
       System.out.println(movies);
 
-      /* Local Class */
+      /* Sorting with Local Class */
       class MovieByRatingAscendingComparator implements Comparator<Movie> {
 
          @Override
@@ -38,7 +38,7 @@ public class D03_InnerClasses {
       Collections.sort(movies, new MovieByRatingAscendingComparator());
       System.out.println(movies);
 
-      /* Anonymous Class */
+      /* Sorting with Anonymous Class */
       Collections.sort(movies, new Comparator<Movie>() {
 
          @Override
@@ -49,49 +49,52 @@ public class D03_InnerClasses {
       });
       System.out.println(movies);
 
-      /* Lambda Expression */
+      /* Sorting with Lambda Expression */
       Collections.sort(movies,
             (movie1, movie2) -> movie1.getPublishingYear().compareTo(movie2.getPublishingYear()));
       System.out.println(movies);
       System.out.println();
 
-      /* for each */
+      /* Output with Loop */
       for (Movie m : movies) {
-         System.out.println(m); // m.incrementRating();
+         System.out.println(m);
 
       }
       System.out.println();
 
-      // Local Class
-      class PrintMovieConsumer implements Consumer<Movie> { // class IncrementRatingConsumer
-                                                            // implements Consumer<Movie> {
+      /* Output with Local Class */
+      class PrintMovieConsumer implements Consumer<Movie> {
 
          @Override
          public void accept(Movie m) {
-            System.out.println(m); // m.incrementRating();
+            System.out.println(m);
          }
 
       }
-      movies.forEach(new PrintMovieConsumer()); // movies.forEach(new IncrementRatingConsumer());
+      movies.forEach(new PrintMovieConsumer());
       System.out.println();
 
-      // Anonymous Class
+      /* Output with Anonymous Class */
       movies.forEach(new Consumer<Movie>() {
 
          @Override
          public void accept(Movie m) {
-            System.out.println(m); // m.incrementRating();
+            System.out.println(m);
          }
 
       });
       System.out.println();
 
-      // Lambda Expression
-      movies.forEach(m -> System.out.println(m)); // movies.forEach(m -> m.incrementRating());
+      /* Output with Lambda Expression */
+      movies.forEach(m -> System.out.println(m));
       System.out.println();
 
-      // Method Reference
-      movies.forEach(System.out::println); // movies.forEach(Movie::incrementRating);
+      /* Method References */
+      movies.forEach(m -> m.incrementRating()); // Lambda Expression
+      movies.forEach(Movie::incrementRating); // Method Reference
+
+      movies.forEach(m -> System.out.println(m)); // Lambda Expression
+      movies.forEach(System.out::println); // Method Reference
    }
 
 }
