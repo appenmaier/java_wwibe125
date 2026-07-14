@@ -5,7 +5,15 @@ import java.util.Collections;
 import java.util.List;
 
 import model.Movie;
+import model.MovieByRatingDescendingComparator;
 
+/**
+ * Demonstrates sorting collections using natural ordering ({@link Comparable})
+ * and custom ordering ({@link java.util.Comparator}).
+ *
+ * @author Daniel Appenmaier
+ * @version 0.0.1
+ */
 public class D02_Comparators {
 
    public static void main(String[] args) {
@@ -40,7 +48,10 @@ public class D02_Comparators {
       movies.add(new Movie("Der Pate", "1972", 9.2));
 
       System.out.println(movies);
-      // Collections.sort(movies);
+      Collections.sort(movies); // movies.sort(null);
+      System.out.println(movies);
+      Collections.sort(movies, new MovieByRatingDescendingComparator()); // movies.sort(new
+                                                                         // MovieByRatingDescendingComparator());
       System.out.println(movies);
    }
 
