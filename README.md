@@ -20,6 +20,7 @@ Dieses Repo beinhaltet sämtlichen Quellcode zu allen Demos sowie alle relevante
   - [Innere Klassen (Inner Classes)](skript/inner-classes.md)
   - [Lambda-Ausdrücke (Lambdas)](skript/lambdas.md) 
 - Termin 4, 17.07.2026
+  - [Assoziativspeicher (Maps)](skript/maps.md)
 - Termin 5, 21.07.2026
 - Termin 6, 24.07.2026
 - Termin 7, 28.07.2026
