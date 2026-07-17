@@ -95,6 +95,9 @@ public class D03_InnerClasses {
 
       movies.forEach(m -> System.out.println(m)); // Lambda Expression
       movies.forEach(System.out::println); // Method Reference
+
+      movies.sort(Comparator.comparing(m -> m.getRating())); // Lambda Expression
+      movies.sort(Comparator.comparing(Movie::getRating)); // Method Reference
    }
 
 }
