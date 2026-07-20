@@ -22,6 +22,8 @@ Dieses Repo beinhaltet sämtlichen Quellcode zu allen Demos sowie alle relevante
 - Termin 4, 17.07.2026
   - [Assoziativspeicher (Maps)](skript/maps.md)
 - Termin 5, 21.07.2026
+  - [Optionals](skript/optionals.md)
+  - [Wiederholung: Termin 2 - 5](skript/repetition2.md)
 - Termin 6, 24.07.2026
 - Termin 7, 28.07.2026
 - Termin 8, 31.07.2026
