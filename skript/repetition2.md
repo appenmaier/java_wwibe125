@@ -2,7 +2,7 @@
 
 **Aufgabe 1**
 
-Erstelle die Klasse `Performance` anhand des abgebildeten Klassendiagramms (3,5 Punkte).
+Erstelle die Klasse `Performance` anhand des abgebildeten Klassendiagramms (4 Punkte).
 
 ```mermaid
 classDiagram
@@ -10,9 +10,9 @@ classDiagram
    Performance o-- MusicGenre
    class Performance {
       <<record>>
-      bandName: String #123;final#125;
-      startTime: LocalTime #123;final#125;
-      genre: MusicGenre #123;final#125;
+      bandName: String
+      startTime: LocalTime
+      genre: MusicGenre
       +compareTo(other: Performance) int
    }
    class Comparable~Performance~ {
@@ -48,9 +48,9 @@ classDiagram
    Festival o-- Stage
    class Performance {
       <<record>>
-      bandName: String #123;final#125;
-      startTime: LocalTime #123;final#125;
-      genre: MusicGenre #123;final#125;
+      bandName: String
+      startTime: LocalTime
+      genre: MusicGenre
       +compareTo(other: Performance) int
    }
    class Comparable~Performance~ {
@@ -59,13 +59,13 @@ classDiagram
    }
    class Stage {
       <<record>>
-      name: String #123;final#125;
-      size: StageSize #123;final#125;
+      name: String 
+      size: StageSize
    }
    class Festival {
       <<record>>
-      name: String #123;final#125;
-      schedule: Map~Performance, Stage~ #123;final#125;
+      name: String
+      schedule: Map~Performance, Stage~
       +addPerformance(performance: Performance, stage: Stage) void
       +getStageByBandName(bandName: String) Optional~Stage~
       +getPerformancesByGenre(genre: MusicGenre) List~Performance~
@@ -87,7 +87,6 @@ classDiagram
       -description: String #123;final#125;
    }
    style Festival fill:#fff,stroke:#000
-
 ```
 
 _Hinweise_
