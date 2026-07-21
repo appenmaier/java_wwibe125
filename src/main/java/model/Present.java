@@ -5,7 +5,7 @@ package model;
  * defined by {@link Wrappable}.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 public abstract class Present implements Wrappable {
 

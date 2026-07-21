@@ -13,7 +13,7 @@ import model.Student;
  * iterating over key-value pairs using a {@link java.util.HashMap}.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 public class D04_Maps {
 

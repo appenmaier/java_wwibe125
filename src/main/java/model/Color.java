@@ -4,7 +4,7 @@ package model;
  * Represents the possible colors of a dice.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 public enum Color {
 

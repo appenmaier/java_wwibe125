@@ -12,7 +12,7 @@ import model.MovieByRatingDescendingComparator;
  * and custom ordering ({@link java.util.Comparator}).
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 public class D02_Comparators {
 

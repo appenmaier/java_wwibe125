@@ -8,7 +8,7 @@ import java.util.Objects;
  * Compare with {@link DragonRecord} and {@link DragonLombok}.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 public class DragonClass {
 

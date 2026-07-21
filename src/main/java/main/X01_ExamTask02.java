@@ -12,7 +12,7 @@ import model.Dice;
  * highest sum. The game continues until the player reaches the winning points.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 public class X01_ExamTask02 {
 

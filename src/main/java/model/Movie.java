@@ -8,7 +8,7 @@ import lombok.Data;
  * allow natural ordering by title.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 @Data
 @AllArgsConstructor

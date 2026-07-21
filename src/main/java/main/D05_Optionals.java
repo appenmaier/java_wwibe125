@@ -7,7 +7,7 @@ import java.util.Random;
  * Demonstrates how to use {@link java.util.Optional} to avoid null checks.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 public class D05_Optionals {
 

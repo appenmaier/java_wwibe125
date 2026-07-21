@@ -4,7 +4,7 @@ package model;
  * Represents a music genre with a human-readable description.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 public enum MusicGenre {
 

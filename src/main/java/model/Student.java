@@ -6,7 +6,7 @@ import lombok.Data;
  * Represents a student with a matriculation number and a name.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 @Data
 public class Student {

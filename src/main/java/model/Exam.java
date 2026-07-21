@@ -9,7 +9,7 @@ import lombok.Data;
  * Represents an exam result with a date and a grade.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 @Data
 @AllArgsConstructor

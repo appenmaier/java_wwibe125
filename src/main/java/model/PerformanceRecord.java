@@ -7,7 +7,7 @@ import java.time.LocalTime;
  * genre.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 public record PerformanceRecord(String bandName, LocalTime startTime, MusicGenre genre) // 1,5
       implements Comparable<PerformanceRecord> { // 0,5

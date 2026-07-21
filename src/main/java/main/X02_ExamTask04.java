@@ -9,7 +9,7 @@ import model.Toy;
  * present list, wrapping all presents, and extracting only the toys.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 public class X02_ExamTask04 {
 

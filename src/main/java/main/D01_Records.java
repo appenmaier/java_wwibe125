@@ -10,7 +10,7 @@ import model.DragonType;
  * record, and a Lombok-annotated class.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 public class D01_Records {
 

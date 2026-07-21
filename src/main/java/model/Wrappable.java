@@ -4,7 +4,7 @@ package model;
  * Represents an object that can be wrapped and unwrapped like a present.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 public interface Wrappable {
 

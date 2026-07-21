@@ -7,7 +7,7 @@ import java.util.Comparator;
  * (highest rating first).
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 public class MovieByRatingDescendingComparator implements Comparator<Movie> {
 

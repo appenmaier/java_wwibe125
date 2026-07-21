@@ -10,7 +10,7 @@ import lombok.Data;
  * with {@link DragonClass} and {@link DragonRecord}.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 @Data
 @AllArgsConstructor

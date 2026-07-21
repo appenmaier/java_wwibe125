@@ -6,7 +6,7 @@ import java.util.Objects;
  * Represents a toy that can be given as a present.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 public class Toy extends Present {
 

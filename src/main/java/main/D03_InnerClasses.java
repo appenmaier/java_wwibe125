@@ -14,7 +14,7 @@ import model.Movie;
  * {@link java.util.function.Consumer}.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 public class D03_InnerClasses {
 

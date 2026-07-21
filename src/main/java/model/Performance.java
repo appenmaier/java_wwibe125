@@ -8,7 +8,7 @@ import lombok.Data;
  * Represents a festival performance with a band name, start time, and music genre.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 @Data // 0,25
 public class Performance implements Comparable<Performance> { // 1

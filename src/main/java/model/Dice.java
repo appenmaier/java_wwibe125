@@ -6,7 +6,7 @@ import java.util.Random;
  * Represents a dice that rolls a random value and color on each throw.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 public class Dice {
 

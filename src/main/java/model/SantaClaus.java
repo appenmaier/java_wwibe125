@@ -9,7 +9,7 @@ import java.util.Objects;
  * all at once.
  *
  * @author Daniel Appenmaier
- * @version 0.0.1
+ * @version 1.0
  */
 public class SantaClaus {
 
