@@ -25,6 +25,7 @@ Dieses Repo beinhaltet sämtlichen Quellcode zu allen Demos sowie alle relevante
   - [Optionals](skript/optionals.md)
   - [Wiederholung: Termin 2 - 5](skript/repetition2.md)
 - Termin 6, 24.07.2026
+  - [Die Java Stream API](skript/java-stream-api.md)
 - Termin 7, 28.07.2026
 - Termin 8, 31.07.2026
 - Termin 9, 08.09.2026
