@@ -98,4 +98,4 @@ _Hinweise_
 
 **Links**
 
-[Solution: ExamTaskA](../src/main/java/main/X03_ExamTaskA.java) _folgt_
+[Solution: ExamTaskA](../src/main/java/main/X03_ExamTaskA.java)
