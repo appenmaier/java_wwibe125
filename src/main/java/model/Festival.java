@@ -22,8 +22,7 @@ public record Festival(String name, Map<Performance, Stage> schedule) { // 1
     * @throws DuplicatePerformanceException if the performance is already in the schedule
     */
    public void addPerformance(Performance performance, Stage stage) // 0,5
-         throws DuplicatePerformanceException {
-      // 0,5
+         throws DuplicatePerformanceException { // 0,5
 
       if (schedule.containsKey(performance)) { // 1
          throw new DuplicatePerformanceException(performance); // 1
@@ -39,7 +38,7 @@ public record Festival(String name, Map<Performance, Stage> schedule) { // 1
     * @return an {@link Optional} containing the stage, or an empty Optional if not found
     */
    public Optional<Stage> getStageByBandName(String bandName) { // 0,5
-      Optional<Stage> stage = Optional.empty(); // 1
+      Optional<Stage> stage = Optional.empty(); // 0,5
 
       for (Entry<Performance, Stage> entry : schedule.entrySet()) { // 1
          Performance p = entry.getKey(); // 0,5
@@ -52,7 +51,7 @@ public record Festival(String name, Map<Performance, Stage> schedule) { // 1
       }
 
       return stage; // 0,5
-   } // 6
+   } // 5,5
 
    /**
     * Returns all performances of the given music genre, sorted by their natural order.
