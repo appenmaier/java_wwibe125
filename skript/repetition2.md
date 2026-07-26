@@ -37,7 +37,7 @@ Die Methode `int compareTo(other: Performance)` soll so implementiert werden, da
 
 **Beispielklausuraufgabe A2**
 
-Erstelle die Klasse `Festival` anhand des abgebildeten Klassendiagramms (15,5 Punkte).
+Erstelle die Klasse `Festival` anhand des abgebildeten Klassendiagramms (15 Punkte).
 
 ```mermaid
 classDiagram
@@ -93,7 +93,7 @@ _Hinweise_
 
 - Die Schlüssel-Werte-Paare des Assoziativspeichers `schedule` beinhalten als Schlüssel den Auftritt sowie als Wert die zugehörige Bühne
 - Die Methode `void addPerformance(performance: Performance, stage: Stage)` soll dem Spielplan das eingehende Auftritt-Bühnen-Paar hinzufügen. Für den Fall, dass der Auftritt bereits im Spielplan vorhanden ist, soll die Ausnahme `DuplicatePerformanceException` ausgelöst werden (4 Punkte)
-- Die Methode `Optional<Stage> getStageByBandName(bandName: String)` soll die Bühne zum eingehenden Bandnamen zurückgeben (6 Punkte)
+- Die Methode `Optional<Stage> getStageByBandName(bandName: String)` soll die Bühne zum eingehenden Bandnamen zurückgeben (5,5 Punkte)
 - Die Methode `List<Performance> getPerformancesByGenre(genre: MusicGenre)` soll alle Auftritte zurückgeben, deren Musikgenre dem eingehenden Genre entspricht, aufsteigend sortiert nach ihrer Startzeit (4,5 Punkte)
 
 **Links**
