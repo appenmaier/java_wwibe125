@@ -10,6 +10,7 @@
 !*.png
 !*.xml
 !*.fxml
+!*.pdf
 !*/
 
 # Ignore not relevant folders

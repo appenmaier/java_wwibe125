@@ -35,9 +35,11 @@ Dieses Repo beinhaltet sämtlichen Quellcode zu allen Demos sowie alle relevante
 
 ## Downloads
 
-- [Musterklausur Programmierung II.pdf](static/sample_exam_exam.pdf)
-- [Musterlösung Programmierung II.pdf](static/sample_exam_solution.pdf)
-- [Cheatsheet Programmierung II.pdf](static/sample_exam_cheatsheet.pdf)
+- [Musterklausur Programmierung II.pdf](static/robotfactory_exam.pdf)
+- [Musterlösung zur Musterklausur Programmierung II.pdf](static/robotfactory_solution.pdf)
+- [Vorbereitungsklausur Programmierung II.pdf](static/festival_exam.pdf)
+- [Musterlösung zur Vorbereitungsklausur Programmierung II.pdf](static/festival_solution.pdf)
+- [Cheatsheet Programmierung II.pdf](static/cheatsheet.pdf)
 
 ## Klausurergebnisse
 
