@@ -28,10 +28,15 @@ Dieses Repo beinhaltet sämtlichen Quellcode zu allen Demos sowie alle relevante
   - [Die Java Stream API](skript/java-stream-api.md)
 - Termin 7, 28.07.2026
   - [Die Java Stream API](skript/java-stream-api.md)
-  - [Wiederholung: Termin 6 - 7](skript/repetition3.md)
 - Termin 8, 31.07.2026
+  - [Wiederholung: Termin 6 - 7](skript/repetition3.md)
+  - Softwaretests
+  - Komponententests (Unit Tests)
 - Termin 9, 08.09.2026
+  - Komponententests (Unit Tests)
+  - Mockito
 - Termin 10, 11.09.2026
+  - Klausurvorbereitung
 
 ## Downloads
 
