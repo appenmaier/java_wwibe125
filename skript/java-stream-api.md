@@ -9,4 +9,5 @@
 
 - [Doku: Die Java Stream API](https://jappuccini.github.io/java-docs/production/documentation/java-stream-api)
 - [Übungsaufgaben: Die Java Stream API](https://jappuccini.github.io/java-docs/production/exercises/java-stream-api/)
+- [Klausuraufgaben: Abfragen](https://jappuccini.github.io/java-docs/production/exam-exercises/exam-exercises-java2/queries/)
 - [Demo: Die Java Stream API](../src/main/java/main/D06_JavaStreamApi.java)
