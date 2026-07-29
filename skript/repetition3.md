@@ -69,6 +69,7 @@ _Weitere Collectors-Abfragen_
 - Die Methode `Map<MusicGenre, Long> getNumberOfPerformancesPerGenre()` soll die Anzahl der Auftritte pro Musikgenre zurückgeben (_groupingBy_, _counting_) (3,5 Punkte)
 - Die Methode `String getStageNamesBySizeAsString(StageSize size)` soll die Namen aller Bühnen der eingehenden Bühnengröße als kommaseparierte Zeichenkette zurückgeben (_joining_) (5 Punkte)
 - Die Methode `Map<Boolean, List<Performance>> partitionPerformancesByTime(LocalTime time)` soll die Auftritte in zwei Gruppen zurückgeben: eine Gruppe mit Auftritten vor der eingehenden Zeit und eine Gruppe mit Auftritten zu oder nach der eingehenden Zeit (_partitioningBy_) (3,5 Punkte)
+- Die Methode `Optional<MusicGenre> getMostFrequentGenre()` soll das Musikgenre mit den meisten Auftritten zurückgeben (_groupingBy_, _counting_) (6 Punkte)
 
 **Links**
 
