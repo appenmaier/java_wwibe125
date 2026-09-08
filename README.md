@@ -32,8 +32,8 @@ Dieses Repo beinhaltet sämtlichen Quellcode zu allen Demos sowie alle relevante
   - [Wiederholung: Termin 6 - 7](skript/repetition3.md)
   - [Softwaretests](skript/tests.md)
 - Termin 9, 08.09.2026
-  - Komponententests (Unit Tests)
-  - Mockito
+  - [Komponententests (Unit Tests)](skript/unit-tests.md)
+  - [Mockito](skript/mockito.md)
 - Termin 10, 11.09.2026
   - Klausurvorbereitung
 
