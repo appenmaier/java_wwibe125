@@ -15,6 +15,7 @@
 # Ignore not relevant folders
 /bin/
 /target/
+/static/
 
 # Ignore CLAUDE
 /CLAUDE.md
