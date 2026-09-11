@@ -41,7 +41,6 @@ Dieses Repo beinhaltet sämtlichen Quellcode zu allen Demos sowie alle relevante
 
 - [Musterklausur Programmierung II.pdf](static/robotfactory_exam.pdf)
 - [Musterlösung zur Musterklausur Programmierung II.pdf](static/robotfactory_solution.pdf)
-- [Cheatsheet Programmierung II.pdf](static/cheatsheet.pdf)
 
 ## Klausurergebnisse
 
