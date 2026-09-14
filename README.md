@@ -35,7 +35,7 @@ Dieses Repo beinhaltet sämtlichen Quellcode zu allen Demos sowie alle relevante
   - [Komponententests (Unit Tests)](skript/unit-tests.md)
   - [Mockito](skript/mockito.md)
 - Termin 10, 11.09.2026
-  - Klausurvorbereitung
+  - [Klausurvorbereitung](skript/preparation.md)
 
 ## Downloads
 
